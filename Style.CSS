@@ -1,0 +1,115 @@
+@media only screen and (max-width: 1449px) { /* taille max = 1449 => GSM + tablette*/
+  #sommaire{
+    background-image: url(Background/FondGSM.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+  }
+
+  #Texte{
+    margin-top: -478px;
+    margin-left: 200px;
+    font-size: 22px;
+  }
+
+  #Annonce{
+    position: static;
+    display: block;
+    width: 85%;
+    margin-top: 200px;
+  }
+
+  .header{
+    margin-top: 30px;
+    text-align: center;
+    color: #f34312;
+    font-family: BestWishes;
+    font-size: 95px;
+    font-weight: bold;
+  }
+
+  #bouton1{
+    margin-left: 150px;
+    margin-top: 340px;
+    opacity: 0;
+    animation: fadein 2s;
+    -moz-animation: fadein 2s;
+    -webkit-animation: fadein 2s;
+    -o-animation: fadein 2s;
+    animation-delay: 10s;
+    animation-fill-mode: both;
+  }
+
+  #lancement{
+    background: rgba(243, 135, 63, 0.33);
+    padding: 30px;
+    border-radius: 15px;
+    border: .5px solid rgb(189,189,189);
+    backdrop-filter: blur(8px);
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.1);
+    font-size: 90px;
+    font-family: CloudyJune;
+  }
+
+}
+
+
+
+@media only screen and (min-width: 1450px) {/* taille min = 1450 => pc*/
+  #sommaire{
+    background-image: url(Background/Fond.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:fixed;
+  }
+
+  #Annonce{
+    width: 40%;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+  }
+
+  #Texte{
+    margin-top: -330px;
+    margin-left: 140px;
+    font-size: 30px;
+  }
+
+  .header{
+    margin-top: 10px;
+    text-align: center;
+    color: #f34312;
+    font-family: BestWishes;
+    font-size: 75px;
+    font-weight: bold;
+  }
+
+  #bouton1{
+    margin-left: 850px;
+    margin-top: 100px;
+    opacity: 0;
+    animation: fadein 2s;
+    -moz-animation: fadein 2s;
+    -webkit-animation: fadein 2s;
+    -o-animation: fadein 2s;
+    animation-delay: 10s;
+    animation-fill-mode: both;
+  }
+    
+  #lancement{
+    background: rgba(243, 135, 63, 0.33);
+    padding: 30px;
+    border-radius: 15px;
+    border: .5px solid rgb(189,189,189);
+    backdrop-filter: blur(8px);
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.1);
+    font-size: 40px;
+    font-family: CloudyJune;
+  }
+
+}
+
+#Parchemin{
+  width: 120%;
+}

@@ -1,0 +1,45 @@
+@keyframes fadein {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadein {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadein {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadein{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+@font-face {
+    font-family: "BestWishes";
+    src: url('Fonts/BestWishes.ttf');
+   }
+
+@font-face{
+  font-family: "CloudyJune";
+  src: url(Fonts/CloudyJune.ttf);
+}
