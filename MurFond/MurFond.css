@@ -1,6 +1,6 @@
 @media only screen and (max-width: 1449px){/*GSM + Tablette*/
   #mur1{
-    background-image: url"../Background/MurGSM.jpg";
+    background-image: url"../../Background/MurGSM.jpg";
     background-repeat: no-repeat;
     background-size: cover;
     position: fixed;
