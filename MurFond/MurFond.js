@@ -1,3 +1,3 @@
-function changePage(sunject){
-    location.href= subject + "/" + subject + ".html";
+function changePage(subject){
+    location.href= "../" + subject + "/" + subject + ".html";
 }
