@@ -1,3 +1,3 @@
 function changePage(subject){
-    location.href = "Mur1/" + subject + ".html";
+    location.href = subject + "/" + subject + ".html";
 }
