@@ -5,10 +5,18 @@
     background-size: cover;
     position: fixed;
   }
-  #Gauche{
+
+  #Next{
+    position:static;
+    display: block;
+    margin-top: 1000px;
+  }
+
+  #Gauche,
+  #Droite{
     width: 50px;
     font-size: 30px;
-    font-weight: 600;
+    font-weight: 600px;
     color: #fff;
     cursor: pointer;
     margin: 20px;
@@ -23,7 +31,8 @@
     transition: all .4s ease-in-out;
   }
 
-  #Gauche:hover {
+  #Gauche:hover,
+  #Droite:hover {
     background-position: 100% 0;
     -moz-transition: all .4s ease-in-out;
     -o-transition: all .4s ease-in-out;
@@ -31,11 +40,13 @@
     transition: all .4s ease-in-out;
   }
 
-  #Gauche:focus {
+  #Gauche:focus,
+  #Droite:focus {
     outline: none;
   }
 
-  #Gauche {
+  #Gauche,
+  #Droite {
     background-image: linear-gradient(
       to right,
       #ed6ea0,
@@ -43,6 +54,10 @@
       #f7186a,
       #fbb03b);
     box-shadow: 0 4px 15px 0 rgba(236, 116, 149, 0.75);
+  }
+
+  #Droite{
+    margin-left: 797px;
   }
 
 }
