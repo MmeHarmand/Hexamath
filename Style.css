@@ -7,8 +7,8 @@
   }
 
   .Texte{
-   /* margin-top: -478px;
-    margin-left: 200px;*/
+   margin-top: -478px;
+    margin-left: 200px;
     font-size: 22px;
     
   }
@@ -19,7 +19,7 @@
     justify-content: center;
   }
 
-  /*.header{
+  .header{
     margin-top: 30px;
     text-align: center;
     color: #f34312;
@@ -50,7 +50,7 @@
     font-size: 90px;
     font-family: CloudyJune;
   }
-*/
+
 }
 
 
@@ -60,6 +60,7 @@
     background-image: url(Background/Fond.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    overflow: hidden;
     
   }
 
