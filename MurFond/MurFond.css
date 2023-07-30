@@ -1,3 +1,8 @@
+body,
+html{
+  height: 100%;
+}
+
 @media only screen and (max-width: 1449px){/*GSM + Tablette*/
   #MurFond{
     background-image: url(../Background/MurGSM.jpg);
@@ -65,11 +70,65 @@
 
 
 @media only screen and (min-width: 1450px){/*PC*/
-#MurFond{
-    background-image: url(../Background/Fond.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: fixed;
+body{
+  background-image: url(../Background/Mur1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
   }
+
+#Next{
+  position:static;
+  display: block;
+  margin-top: 1000px;
+}
+
+#Gauche,
+#Droite{
+  width: 50px;
+  font-size: 30px;
+  font-weight: 600px;
+  color: #fff;
+  cursor: pointer;
+  margin: 20px;
+  height: 55px;
+  text-align:center;
+  border: none;
+  background-size: 300% 100%;
+  border-radius: 50px;
+  -moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+#Gauche:hover,
+#Droite:hover {
+  background-position: 100% 0;
+  -moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+#Gauche:focus,
+#Droite:focus {
+  outline: none;
+}
+
+#Gauche,
+#Droite {
+  background-image: linear-gradient(
+    to right,
+    #ed6ea0,
+    #ec8c69,
+    #f7186a,
+    #fbb03b);
+  box-shadow: 0 4px 15px 0 rgba(236, 116, 149, 0.75);
+}
+
+#Droite{
+  margin-left: 797px;
+}
 
 }
