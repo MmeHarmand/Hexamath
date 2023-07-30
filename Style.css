@@ -1,22 +1,30 @@
-@media only screen and (max-width: 1449px) { /* taille max = 1449 => GSM + tablette*/
-  body{
+body,
+html {
+  height: 100%;
+}
+
+@media only screen and (max-width: 1449px) {
+
+  /* taille max = 1449 => GSM + tablette*/
+  body {
     background-image: url(Background/FondGSM.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    
+
   }
-  .Texte{
+
+  .Texte {
     font-size: 22px;
   }
 
 
-  .Annonce{
+  .Annonce {
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
-  .header{
+  .header {
     margin-top: 30px;
     text-align: center;
     color: #f34312;
@@ -25,7 +33,7 @@
     font-weight: bold;
   }
 
-  .bouton1{
+  .bouton1 {
     margin-left: 150px;
     margin-top: 340px;
     opacity: 0;
@@ -37,11 +45,11 @@
     animation-fill-mode: both;
   }
 
-  .lancement{
+  .lancement {
     background: rgba(243, 135, 63, 0.33);
     padding: 30px;
     border-radius: 15px;
-    border: .5px solid rgb(189,189,189);
+    border: .5px solid rgb(189, 189, 189);
     backdrop-filter: blur(8px);
     box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.1);
     font-size: 90px;
@@ -52,20 +60,22 @@
 
 
 
-@media only screen and (min-width: 1450px) {/* taille min = 1450 => pc*/
-  body{
+@media only screen and (min-width: 1450px) {
+
+  /* taille min = 1450 => pc*/
+  body {
     background-image: url(Background/Fond.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
-    
+
   }
 
-  .Annonce{
-    background-color: brown;
+  .Annonce {
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 100%;
   }
 
   /*.Texte{
