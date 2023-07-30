@@ -1,0 +1,23 @@
+body,
+html{
+    height: 100%;
+}
+
+@media only screen and (max-width: 1449px){/*GSM + Tablette**/
+    body{
+        background-image: url(../Background/MurGSM.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow: hidden;
+    }
+}
+
+
+@media only screen and (min-width: 1450px){/*PC*/
+    body{
+        background-image: url(../Background/Mur.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow: hidden;
+}
+}
