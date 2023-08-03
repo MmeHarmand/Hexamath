@@ -111,5 +111,9 @@ html{
     outline: none;
   }
 
+  .Tableau{
+    position: absolute;
+    
+  }
   
 }
