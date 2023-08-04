@@ -59,11 +59,10 @@ html{
     outline: none;
   }
 
-  .Tableau{
+  .Ensemble{
     position: absolute;
     z-index: 2;
     background-color: #f7186a;
-    font-size: larger;
     height: 50%;
     top: -54px;
   }
@@ -81,6 +80,8 @@ html{
    }
 
   .Next{
+    position: relative;
+    z-index: 1;
     display: flex;
     justify-content: center;
     justify-content: space-between;
@@ -123,6 +124,16 @@ html{
 
   .Bouton:focus {
     outline: none;
+  }
+
+  .Ensemble{
+    position: absolute;
+    z-index: 2;
+    transform: translate(100%, -125%);
+  }
+
+  .Tableau{
+    width: 250%;
   }
   
 }
