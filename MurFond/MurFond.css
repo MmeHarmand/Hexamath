@@ -135,5 +135,11 @@ html{
   .Tableau{
     width: 250%;
   }
+
+  .Coffre{
+    position: absolute;
+    transform: translate(290%, -25%);
+    width: 60%;
+  }
   
 }
