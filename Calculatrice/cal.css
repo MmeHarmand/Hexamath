@@ -18,7 +18,7 @@ body{
 	margin: 0 auto;
 	background-color: #454545;
 	border: 1px solid #3D3D3D;
-	width: 269px;
+	width: 255px;
 	box-shadow: 0 7px 10px rgba(0, 0, 0, 0.8);
 }
 
@@ -28,16 +28,17 @@ body{
 }
 
 input#number{
-	text-align: right;
+	text-align: center;
 	background-color: #121212;
 	border: none;
 	color: #C8C8C8;
 	font-size: 20px;
-	padding: 16px;
+	padding: 16px 0px;
+	width: 227;
 }
 
-#body{
- padding: 0 10px;
+.body{
+	padding: 0 10px;
 }
 
 .buttons{
@@ -53,5 +54,16 @@ input#number{
 	width: 34px;
 	background: linear-gradient(#5F5F5F 0%, #404040 100%);
 	box-shadow: 0 2px 6px rgba(0, 0, 0, .8);
-	margin-bottom: 8px;
+	margin-bottom: 10px;
+	margin-left: 17px;
+}
+
+.buttons:hover{
+	background: linear-gradient(#79D144 0%, #50A61F 100%);
+	border-top: 1px solid #9ADD73;
+	text-shadow: 0 -1px 1px #008000;
+}
+
+.buttons:active{
+	box-shadow: none;
 }
