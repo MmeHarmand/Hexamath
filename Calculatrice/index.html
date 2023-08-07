@@ -1,71 +1,79 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8"/>
-		<link rel="stylesheet" type="text/css" href="cal.css">
-		<script type="text/javascript" src="cal.js"></script>
-	</head>
-	<body>
-		<div id="container">
-			<div id="calculator">
-				<div id="header">
-					<input type="text" id="number" value="0" autocomplete="off" disabled/>				
-				</div>	
-				<div>
-					<table class="body">
-						<tr>
-							<td class="buttons">
-								7
-							</td>
-							<td class="buttons">
-								8
-							</td>
-							<td class="buttons">
-								9
-							</td>
-						</tr>
-						<tr>
-							<td class="buttons">
-								4
-							</td>
-							<td class="buttons">
-								5
-							</td>
-							<td class="buttons">
-								6
-							</td>
-						</tr>
-						<tr>
-							<td class="buttons">
-								1
-							</td>
-							<td class="buttons">
-								2
-							</td>
-							<td class="buttons">
-								3
-							</td>
-						</tr>
-						<tr>
-							<td class="buttons">
-								,
-							</td>
-							<td class="buttons">
-								0
-							</td>
-							<td class="buttons">
-								=
-							</td>
-						</tr>
-					</table>
-				</div>		
+
+<head>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" type="text/css" href="cal.css">
+	<script type="text/javascript" src="cal.js"></script>
+</head>
+
+<body>
+	<div id="container">
+		<div id="calculator">
+			<div id="header">
+				<input type="text" id="number" value="0" autocomplete="off" disabled />
+			</div>
+			<div>
+				<table class="body">
+					<tr>
+						<td class="buttons">
+							7
+						</td>
+						<td class="buttons">
+							8
+						</td>
+						<td class="buttons">
+							9
+						</td>
+					</tr>
+					<tr>
+						<td class="buttons">
+							4
+						</td>
+						<td class="buttons">
+							5
+						</td>
+						<td class="buttons">
+							6
+						</td>
+					</tr>
+					<tr>
+						<td class="buttons">
+							1
+						</td>
+						<td class="buttons">
+							2
+						</td>
+						<td class="buttons">
+							3
+						</td>
+					</tr>
+					<tr>
+						<td class="buttons">
+							,
+						</td>
+						<td class="buttons">
+							0
+						</td>
+						<td class="buttons">
+							=
+						</td>
+					</tr>
+				</table>
 			</div>
 		</div>
+	</div>
 	<script type="text/javascript">
-		$(document).ready(function(){
+		// https://www.w3schools.com/jsref/event_onload.asp
+		document.onload(() => {
 			var calc = new Calculator();
 			calc.run();
 		});
+		// $(document).ready(function(){
+		// 	var calc = new Calculator();
+		// 	calc.run();
+		// });
 	</script>
-	</body>
+</body>
+
 </html>

@@ -1,29 +1,33 @@
-function Calculator(){
+function Calculator() {
     that = this;
-    this.field= "inputnumber",
-    this.button= "#body #buttons",
-    this.init= false,
+    //https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById
+    this.t = document.getElementsByClassName("buttons");
+    // this.field = "inputnumber",
+    //     this.button = "#body #buttons",
+    //     this.init = false,
 
-    this.run= function(){
-        $(this.button).click(function(){
-            var value = $(this).html();
+    this.run = function () {
+        console.log(t);
 
-            if (that. init == false)
-            {
-                $(that.field).val("");
-                that.init= true;
-            }
+        // $(this.button).click(function(){
+        //     var value = $(this).html();
 
-            if (value != "=")
+        //     if (that. init == false)
+        //     {
+        //         $(that.field).val("");
+        //         that.init= true;
+        //     }
 
-            $(that.field).val($(that.field).val() + value);
+        //     if (value != "=")
 
-            that.dispatcher(value);
-        });
+        //     $(that.field).val($(that.field).val() + value);
+
+        //     that.dispatcher(value);
+        // });
 
     },
 
-    this.dispatcher= function(value){
+        this.dispatcher = function (value) {
 
-    }
+        }
 }
