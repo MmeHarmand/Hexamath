@@ -38,7 +38,7 @@ input#number{
 }
 
 .body{
-	padding: 0 10px;
+	padding: 0 17px;
 }
 
 .buttons{
@@ -55,7 +55,7 @@ input#number{
 	background: linear-gradient(#5F5F5F 0%, #404040 100%);
 	box-shadow: 0 2px 6px rgba(0, 0, 0, .8);
 	margin-bottom: 10px;
-	margin-left: 17px;
+	margin-inline: 7px;
 }
 
 .buttons:hover{
