@@ -1,4 +1,4 @@
-function Calculator() {
+/*function Calculator() {
     that = this;
     //https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById
     this.t = document.getElementsByClassName("buttons");
@@ -30,4 +30,17 @@ function Calculator() {
         this.dispatcher = function (value) {
 
         }
+}*/
+
+function removeZero(){
+    var value = document.getElementById("number").innerHTML;
+    if (value == "0"){
+        value = " "
+        document.getElementById("number").innerHTML = value;
+    }
+}
+
+function fordisplay(value){
+    removeZero()
+    document.getElementById("number").innerHTML += value;
 }
