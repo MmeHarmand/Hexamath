@@ -10,6 +10,7 @@
 </head>
 
 <body scroll="no">
+    <!--page avec les objets dessus-->
     <div class="Next">
         <button class="Bouton" type="button" onclick="changePage('MurDroite')">&lt;</button>
         <button class="Bouton" type="button" onclick="changePage('MurGauche')">&gt;</button>
@@ -21,7 +22,40 @@
     <div>
         <button class="cadenas" type="button" onclick="codeShow()"></button>
     </div>
-    <div id="code">
+    <!--Cadena du coffre-->
+    <div id="container">
+		<div id="calculator">
+			<div id="header">
+				<INPUT type="text" id="number" autocomplete="off" disabled/>
+			</div>
+			<div>
+				<table class="body">
+					<tr>
+						<td> <input class="buttons" type="button" value="7" onclick="display('7')"/> </td>			
+						<td> <input class="buttons" type="button" value="8" onclick="display('8')"/> </td>
+						<td> <input class="buttons" type="button" value="9" onclick="display('9')"/> </td>
+					</tr>
+					<tr>
+						<td> <input class="buttons" type="button" value="4" onclick="display('4')"/> </td>			
+						<td> <input class="buttons" type="button" value="5" onclick="display('5')"/> </td>
+						<td> <input class="buttons" type="button" value="6" onclick="display('6')"/> </td>
+					</tr>
+					<tr>
+						<td> <input class="buttons" type="button" value="1" onclick="display('1')"/> </td>			
+						<td> <input class="buttons" type="button" value="2" onclick="display('2')"/> </td>
+						<td> <input class="buttons" type="button" value="3" onclick="display('3')"/> </td>
+					</tr>
+					<tr>
+						<td> <input class="buttons" type="button" value="C" onclick="clearScreen()"/> </td>			
+						<td> <input class="buttons" type="button" value="0" onclick="display('0')"/> </td>
+						<td> <input class="buttons" type="button" value="=" onclick="correct('1234')"/> </td>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</div>
+    <!--Ce qu'il y a dans le coffre-->
+    <div id="good">
 
     </div>
 </body>
