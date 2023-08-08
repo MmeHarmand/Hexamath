@@ -67,3 +67,12 @@ input#number{
 .buttons:active{
 	box-shadow: none;
 }
+
+#good{
+	display: none;
+	background-color: #008000;
+	position: absolute;
+	margin-top: -150px;
+	width: 200px;
+	height: 200px;
+}

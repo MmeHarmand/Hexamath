@@ -13,7 +13,7 @@
 	<div id="container">
 		<div id="calculator">
 			<div id="header">
-				<input type="text" id="number" autocomplete="off" disabled/>
+				<INPUT type="text" id="number" autocomplete="off" disabled/>
 			</div>
 			<div>
 				<table class="body">
@@ -33,13 +33,16 @@
 						<td> <input class="buttons" type="button" value="3" onclick="display('3')"/> </td>
 					</tr>
 					<tr>
-						<td> <input class="buttons" type="button" value="," onclick="display(',')"/> </td>			
+						<td> <input class="buttons" type="button" value="C" onclick="clearScreen()"/> </td>			
 						<td> <input class="buttons" type="button" value="0" onclick="display('0')"/> </td>
-						<td> <input class="buttons" type="button" value="="/> </td>
+						<td> <input class="buttons" type="button" value="=" onclick="correct('1234')"/> </td>
 					</tr>
 				</table>
 			</div>
 		</div>
+	</div>
+	<div id="good">
+
 	</div>
 </body>
 
